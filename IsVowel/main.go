@@ -9,10 +9,10 @@ import (
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 
-	fmt.Println("Enter chracter:")
-	chracter, _, _ := reader.ReadRune()
+	fmt.Println("Enter character:")
+	character, _, _ := reader.ReadRune()
 
-	if chracter == 'a' || chracter == 'e' || chracter == 'i' || chracter == 'o' || chracter == 'u' || chracter == 'A' || chracter == 'E' || chracter == 'I' || chracter == 'O' || chracter == 'U' {
+	if character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' || character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U' {
 		fmt.Println("You entered a vowel.\n")
 	} else {
 		fmt.Println("You entered a consonant.\n")
